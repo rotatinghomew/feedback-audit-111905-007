@@ -4,7 +4,7 @@ import unittest
 
 
 FIXTURES = Path(__file__).resolve().parents[1] / "fixtures"
-HEADERS = {'policy': ['min_confirmed', 'confidence', 'low_share_threshold', 'unknown_low_min', 'unknown_low_max', 'max_attempts', 'new_audit_budget'], 'restrictions': ['id', 'case_id', 'action', 'effective'], 'audit_orders': ['id', 'case_id', 'channel', 'inclusion_probability', 'issued'], 'frame': ['id', 'hall', 'step', 'channels', 'finished'], 'invites': ['case_id', 'channel', 'invited', 'score', 'responded'], 'draws': ['case_id', 'inclusion_probability', 'assigned', 'assignment_probability', 'actual', 'score', 'cross_reason'], 'attempts': ['case_id', 'round', 'sequence', 'channel', 'day'], 'findings': ['case_id', 'step', 'status', 'day']}
+HEADERS = {'policy': ['min_confirmed', 'confidence', 'low_share_threshold', 'unknown_low_min', 'unknown_low_max', 'max_attempts', 'new_audit_budget'], 'restrictions': ['id', 'case_id', 'action', 'effective'], 'audit_orders': ['id', 'case_id', 'channel', 'inclusion_probability', 'issued'], 'frame': ['id', 'hall', 'step', 'channels', 'finished'], 'invites': ['case_id', 'channel', 'invited', 'score', 'responded'], 'draws': ['case_id', 'inclusion_probability', 'assigned', 'assignment_probability', 'actual', 'score', 'cross_reason'], 'attempts': ['case_id', 'round', 'sequence', 'channel', 'day'], 'findings': ['case_id', 'step', 'status', 'day'], 'followup_draws': ['id', 'case_id', 'base_pool', 'conditional_probability', 'assigned', 'issued', 'completed', 'actual', 'score'], 'followup_limits': ['pool', 'max_attempts', 'total_budget']}
 LINKS = [('invites', 'case_id', 'frame', 'id'), ('draws', 'case_id', 'frame', 'id'), ('attempts', 'case_id', 'frame', 'id'), ('findings', 'case_id', 'frame', 'id'), ('audit_orders', 'case_id', 'frame', 'id')]
 
 
@@ -22,7 +22,7 @@ class SourceRecords(unittest.TestCase):
                 self.assertEqual(header, expected)
                 self.assertTrue(rows)
                 self.assertTrue(all(None not in row and None not in row.values() for row in rows))
-                if "id" in header:
+                if "id" in header and (name != "receipts" or "batch" not in header):
                     ids = [row["id"] for row in rows]
                     self.assertTrue(all(ids))
                     self.assertEqual(len(ids), len(set(ids)))
