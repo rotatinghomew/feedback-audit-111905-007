@@ -1,0 +1,13 @@
+record_id,record_type,case_id,respondent,occurred_at,channel,stage,status,score,action_ref
+f001,case,p501,r01,2026-01-04T09:00:00,window,intake,closed,,
+f002,invite,p501,r01,2026-01-04T11:00:00,sms,window,sent,,
+f003,response,p501,r01,2026-01-05T08:00:00,sms,window,received,4,
+f004,case,p502,r02,2026-01-05T13:00:00,grid,department,open,,
+f005,invite,p502,r02,2026-01-05T17:00:00,phone,grid,sent,,
+f006,case,p503,r01,2026-01-07T10:00:00,department,follow-up,closed,,
+f007,invite,p503,r01,2026-01-07T11:00:00,sms,department,sent,,
+f008,response,p503,r01,2026-01-10T09:00:00,sms,department,received,2,
+f009,response,p503,r01,2026-01-11T15:00:00,web,department,amended,3,
+f010,action,p503,,,coordinator,,assigned,,a01
+f011,case,p504,r03,2026-01-09T08:00:00,grid,home-support,closed,,
+f012,invite,p504,r03,2026-01-09T12:00:00,phone,home-support,declined,,
