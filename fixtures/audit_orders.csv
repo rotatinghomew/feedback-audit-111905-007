@@ -1,0 +1,4 @@
+id,case_id,channel,inclusion_probability,issued
+O1,F0000,phone,0.50,2026-08-12
+O2,F0006,counter,0.50,2026-08-12
+O3,F0030,phone,0.50,2026-08-12
