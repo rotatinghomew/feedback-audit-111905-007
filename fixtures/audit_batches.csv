@@ -1,0 +1,4 @@
+id,hall,pool,channel,opening,closing,draw_size,trigger,predecessor,state,issued
+FOL1,东厅,previous_nonresponse,phone,2026-08-17,2026-08-20,2,regular,,sent,2026-08-16
+FOL2,东厅,previous_nonresponse,counter,2026-08-20,2026-08-23,1,prior_loss,FOL1,planned,
+FOL3,东厅,new_frame,phone,2026-08-17,2026-08-20,2,regular,,planned,
