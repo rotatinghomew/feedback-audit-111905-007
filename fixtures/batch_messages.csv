@@ -1,4 +1,0 @@
-delivery,receipt,batch,case_id,kind,occurred,received
-T01,X01,FOL1,F0023,withdrawn,2026-08-17,2026-08-18
-T02,X01,FOL1,F0023,withdrawn,2026-08-17,2026-08-19
-T03,X02,FOL1,F0039,contacted,2026-08-17,2026-08-17

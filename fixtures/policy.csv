@@ -1,2 +1,0 @@
-min_confirmed,confidence,low_share_threshold,unknown_low_min,unknown_low_max,max_attempts,new_audit_budget
-8,0.90,0.25,0.10,0.75,3,32

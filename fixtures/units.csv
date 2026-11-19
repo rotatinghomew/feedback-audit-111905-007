@@ -1,0 +1,4 @@
+id,language,route,text_version,meaning,risk
+U1,L1,R1,V1,eligibility,high
+U2,L1,R2,V1,payment,high
+U3,L2,R1,V2,directions,low

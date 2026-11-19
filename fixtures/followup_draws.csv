@@ -1,5 +1,0 @@
-id,case_id,base_pool,conditional_probability,assigned,issued,completed,actual,score
-J1,F0048,previous_nonresponse,0.50,phone,2026-08-12,2026-08-14,phone,2
-J2,F0005,previous_nonresponse,0.50,phone,2026-08-12,2026-08-14,phone,2
-J3,F0036,new_frame,0.50,phone,2026-08-12,2026-08-14,phone,2
-J4,F0028,new_frame,0.25,counter,2026-08-12,2026-08-14,counter,4

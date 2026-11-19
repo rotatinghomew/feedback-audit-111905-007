@@ -1,0 +1,4 @@
+id,unit,reviewer,pair,blind,score,finding
+E1,U1,P1,Q1,yes,0,condition omitted
+E2,U1,P2,Q1,yes,1,equivalent
+E3,U2,P1,Q2,no,1,seen reference
