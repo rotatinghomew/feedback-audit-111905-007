@@ -1,0 +1,13 @@
+id,language,concept,risk,pair,gold
+G1,en,eligible,high,residency duration vs continuous residency,different
+G2,en,eligible,high,six uninterrupted months vs six consecutive months,equivalent
+G3,en,proof,high,intake desk vs issuing desk,different
+G4,en,proof,high,send electronic receipt vs file e-receipt,equivalent
+G5,mn,eligible,high,连续居住与累计居住,different
+G6,mn,eligible,high,六个连续月的另一种译法,equivalent
+G7,ru,proof,high,原站和受理站,different
+G8,ru,proof,high,同一收件窗口的两写法,equivalent
+G9,en,eligible,high,exemption vs no exemption,different
+G10,en,eligible,high,a residency waiver vs a residency exemption,equivalent
+G11,en,proof,high,personal document vs file at intake,different
+G12,en,proof,high,sending to intake vs submitting to intake,equivalent

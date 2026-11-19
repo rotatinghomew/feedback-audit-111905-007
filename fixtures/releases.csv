@@ -1,0 +1,11 @@
+id,route,unit,kind,at,link
+X1,N1,,published,08:30,
+X2,N1,,booking,08:42,X1
+X3,N5,,published,08:32,
+X4,N2,,published,08:50,
+X5,N3,,requested,09:02,
+X6,N4,,published,08:55,
+X7,,,review_pending,09:05,
+X8,,U9,correction,10:00,
+X9,,U10,correction,10:00,
+X10,N2,,booking,09:20,X4

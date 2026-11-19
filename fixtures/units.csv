@@ -1,4 +1,11 @@
-id,language,route,text_version,meaning,risk
-U1,L1,R1,V1,eligibility,high
-U2,L1,R2,V1,payment,high
-U3,L2,R1,V2,directions,low
+id,version,concept,risk,meaning,correction,replacement
+U1,V1,apply,low,选择所属服务站,,
+U2,V1,eligible,high,居住满六个月可办,,
+U3,V1,pay,high,窗口不代付工本费,,
+U4,V1,proof,high,提交纸质回执至原站,,
+U5,V1,end,low,工作日查询进度,,
+U6,V2,eligible,high,连续居住满六个月可办,,
+U7,V2,proof,high,提交电子回执至受理站,,
+U8,V2,apply,low,选择所属服务站,,
+U9,V3,eligible,high,居住满六个月或享有居住豁免可办,U6,U9
+U10,V3,eligible,high,居住满六个月或享有居住豁免可办,U2,U9

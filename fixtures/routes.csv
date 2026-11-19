@@ -1,4 +1,10 @@
-route,position,unit,previous,next,version
-R1,1,U1,,U2,V1
-R1,2,U2,U1,,V1
-R2,1,U3,,,V2
+id,desk,language,steps,version,legacy
+N1,北站,en,T1;T2;T4;T5,V1,
+N2,北站,en,T8;T6;T7;T5,V2,N1
+N3,南站,en,T8;T17;T20;T5,V2,N1
+N4,南站,en,T8;T7;T5,V2,
+N5,北站,mn,T9;T18;T12,V1,
+N6,北站,mn,T10;T11;T12,V2,N5
+N7,南站,ru,T13;T19;T15,V1,
+N8,南站,ru,T13;T14;T15,V2,N7
+N9,北站,en,T8;T16;T7;T5,V3,N1

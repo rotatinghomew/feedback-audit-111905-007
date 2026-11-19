@@ -1,0 +1,21 @@
+id,unit,language,wording,equivalence
+T1,U1,en,Choose a service desk.,F1
+T2,U2,en,Six months of residence required.,F2
+T3,U3,en,Pay the material fee yourself.,F3
+T4,U4,en,Bring the paper receipt to the original desk.,F4
+T5,U5,en,Check progress on weekdays.,F5
+T6,U6,en,Six months of residence required.,F2
+T7,U7,en,Send the digital receipt to the intake desk.,F7
+T8,U8,en,Pick your usual desk.,F1
+T9,U2,mn,Зургаан сар оршин суух шаардлагатай.,M2
+T10,U6,mn,Тасралтгүй зургаан сар оршин суух шаардлагатай.,M6
+T11,U7,mn,Цахим баримтаа хүлээн авах цэгт өгнө.,M7
+T12,U5,mn,Ажлын өдрүүдэд шалгана уу.,M5
+T13,U2,ru,Требуется проживание шесть месяцев.,R2
+T14,U7,ru,Отправьте электронную квитанцию.,R7
+T15,U5,ru,Проверяйте статус в рабочие дни.,R5
+T16,U9,en,Six months of residence or a residency exemption.,F9
+T17,U6,en,You must live here continuously for six months.,F6B
+T18,U4,mn,Цаасан баримтаа анхны цэгт өгнө.,M4
+T19,U4,ru,Подайте бумажную квитанцию в исходное отделение.,R4
+T20,U7,en,File the e-receipt with the receiving desk.,F7

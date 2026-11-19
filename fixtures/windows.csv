@@ -1,0 +1,9 @@
+id,reviewer,language,concept,from,to,minutes
+W1,D,en,eligible,09:00,09:45,30
+W2,D,en,proof,09:00,09:45,30
+W3,C,en,proof,09:00,10:00,30
+W4,E,mn,eligible,09:00,10:00,30
+W5,E,en,eligible,09:00,10:00,30
+W6,F,ru,proof,09:00,10:00,30
+W7,A,en,eligible,10:00,11:00,25
+W8,D,en,eligible,10:00,11:00,25
